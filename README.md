@@ -32,7 +32,7 @@ How to use
 3  add following package (<b>net.surajchhetry</b>)  in you spring application context as below sample
    
 ~~~~xml
-<context:component-scan base-package="net.test.springlogger net.surajchhetry" />
+<context:component-scan base-package="net.surajchhetry" />
 ~~~~
 
 4  for sample log4j.properties please go through test-app
