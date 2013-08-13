@@ -35,5 +35,5 @@ How to use
 <context:component-scan base-package="net.surajchhetry" />
 ~~~~
 
-4  for sample log4j.properties please go through test-app
+4  for sample log4j.properties please go through test or sample application.
 
