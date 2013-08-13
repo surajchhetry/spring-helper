@@ -1,0 +1,34 @@
+DEBUG 13 Aug 2013 11:11:32 [net.surajchhetry.springhelper.ValidatorAspect :30] - Validating for  net.surajchhetry.springhelper.beanvalidation.User
+ERROR 13 Aug 2013 11:11:32 [net.surajchhetry.springhelper.ValidatorAspect :36] - Under age
+DEBUG 13 Aug 2013 11:12:12 [net.surajchhetry.springhelper.ValidatorAspect :30] - Validating for  net.surajchhetry.springhelper.beanvalidation.User
+ERROR 13 Aug 2013 11:12:12 [net.surajchhetry.springhelper.ValidatorAspect :36] - Under age
+ERROR 13 Aug 2013 11:12:12 [net.surajchhetry.springhelper.ValidatorAspect :36] - password is blank
+ERROR 13 Aug 2013 11:12:12 [net.surajchhetry.springhelper.ValidatorAspect :36] - username is blank
+DEBUG 13 Aug 2013 11:12:49 [net.surajchhetry.springhelper.ValidatorAspect :30] - Validating for  net.surajchhetry.springhelper.beanvalidation.User
+ERROR 13 Aug 2013 11:12:49 [net.surajchhetry.springhelper.ValidatorAspect :36] - Under age
+ERROR 13 Aug 2013 11:12:49 [net.surajchhetry.springhelper.ValidatorAspect :36] - password is blank
+ERROR 13 Aug 2013 11:12:49 [net.surajchhetry.springhelper.ValidatorAspect :36] - username is blank
+DEBUG 13 Aug 2013 11:17:21 [net.surajchhetry.springhelper.ValidatorAspect :30] - Validating for  net.surajchhetry.springhelper.beanvalidation.User
+INFO  13 Aug 2013 11:17:21 [net.surajchhetry.springhelper.beanvalidation.UserManager :21] - Adding user
+DEBUG 13 Aug 2013 11:17:21 [net.surajchhetry.springhelper.ValidatorAspect :30] - Validating for  net.surajchhetry.springhelper.beanvalidation.User
+ERROR 13 Aug 2013 11:17:21 [net.surajchhetry.springhelper.ValidatorAspect :36] - Under age
+ERROR 13 Aug 2013 11:17:21 [net.surajchhetry.springhelper.ValidatorAspect :36] - password is blank
+ERROR 13 Aug 2013 11:17:21 [net.surajchhetry.springhelper.ValidatorAspect :36] - username is blank
+DEBUG 13 Aug 2013 11:19:12 [net.surajchhetry.springhelper.ValidatorAspect :30] - Validating for  net.surajchhetry.springhelper.beanvalidation.User
+INFO  13 Aug 2013 11:19:12 [net.surajchhetry.springhelper.beanvalidation.UserManager :21] - Adding user
+DEBUG 13 Aug 2013 11:19:12 [net.surajchhetry.springhelper.ValidatorAspect :30] - Validating for  net.surajchhetry.springhelper.beanvalidation.User
+ERROR 13 Aug 2013 11:19:12 [net.surajchhetry.springhelper.ValidatorAspect :36] - username is blank
+ERROR 13 Aug 2013 11:19:12 [net.surajchhetry.springhelper.ValidatorAspect :36] - password is blank
+ERROR 13 Aug 2013 11:19:12 [net.surajchhetry.springhelper.ValidatorAspect :36] - Under age
+DEBUG 13 Aug 2013 11:19:40 [net.surajchhetry.springhelper.ValidatorAspect :30] - Validating for  net.surajchhetry.springhelper.beanvalidation.User
+INFO  13 Aug 2013 11:19:40 [net.surajchhetry.springhelper.beanvalidation.UserManager :21] - Adding user
+DEBUG 13 Aug 2013 11:19:40 [net.surajchhetry.springhelper.ValidatorAspect :30] - Validating for  net.surajchhetry.springhelper.beanvalidation.User
+ERROR 13 Aug 2013 11:19:40 [net.surajchhetry.springhelper.ValidatorAspect :36] - username is blank
+ERROR 13 Aug 2013 11:19:40 [net.surajchhetry.springhelper.ValidatorAspect :36] - password is blank
+ERROR 13 Aug 2013 11:19:40 [net.surajchhetry.springhelper.ValidatorAspect :36] - Under age
+DEBUG 13 Aug 2013 11:20:16 [net.surajchhetry.springhelper.ValidatorAspect :30] - Validating for  net.surajchhetry.springhelper.beanvalidation.User
+INFO  13 Aug 2013 11:20:16 [net.surajchhetry.springhelper.beanvalidation.UserManager :21] - Adding user
+DEBUG 13 Aug 2013 11:20:16 [net.surajchhetry.springhelper.ValidatorAspect :30] - Validating for  net.surajchhetry.springhelper.beanvalidation.User
+ERROR 13 Aug 2013 11:20:16 [net.surajchhetry.springhelper.ValidatorAspect :36] - username is blank
+ERROR 13 Aug 2013 11:20:16 [net.surajchhetry.springhelper.ValidatorAspect :36] - password is blank
+ERROR 13 Aug 2013 11:20:16 [net.surajchhetry.springhelper.ValidatorAspect :36] - Under age
