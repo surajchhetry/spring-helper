@@ -1,5 +1,8 @@
 package net.surajchhetry.springhelper.beanvalidation;
 
+import java.util.ArrayList;
+import java.util.List;
+import javax.validation.Valid;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
@@ -14,16 +17,19 @@ public class User {
     private String password;
     private String email;
     private int age;
+    private List<Address> addresses;
 
     public User() {
         this.userName = null;
         this.password = null;
+        this.addresses = new ArrayList<>();
     }
 
     public User(String userName, String password, int age) {
         this.userName = userName;
         this.password = password;
         this.age = age;
+         this.addresses = new ArrayList<>();
     }
 
     @NotNull(message = "username is blank")
@@ -68,6 +74,16 @@ public class User {
     public void setId(int id) {
         this.id = id;
     }
+
+    @Valid
+    public List<Address> getAddresses() {
+        return addresses;
+    }
+
+    public void setAddresses(List<Address> addresses) {
+        this.addresses = addresses;
+    }
+    
     
     
 }

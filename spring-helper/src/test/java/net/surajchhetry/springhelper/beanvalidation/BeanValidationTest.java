@@ -26,6 +26,7 @@ public class BeanValidationTest extends BaseTest {
     @Test
     public void addUserTest() {
         User u = new User("test", "test", 20);
+        u.getAddresses().add(new Address());
         this.manager.addUser(u);
         assertEquals(u.getId(), 20);
     }

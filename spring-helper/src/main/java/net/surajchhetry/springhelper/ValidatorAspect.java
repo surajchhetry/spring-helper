@@ -1,5 +1,7 @@
 package net.surajchhetry.springhelper;
 
+import java.lang.reflect.Method;
+import java.util.List;
 import java.util.Set;
 import net.surajchhetry.springhelper.annotation.Log;
 import net.surajchhetry.springhelper.annotation.ValidateBean;
@@ -27,10 +29,16 @@ public class ValidatorAspect {
 
     @Before(value = "execution(* *.*(..)) && @annotation(validateBean)", argNames = "validateBean")
     public void validate(JoinPoint joinPoint, ValidateBean bean) {
-        logger.debug("Validating for  " + bean.bean().getCanonicalName());
         Object o = joinPoint.getArgs()[bean.paramIndex()];
-        Set<ConstraintViolation<Object>> errors = this.validator.validate(o);
+        this.processValidate(o);
+    }
 
+    private void processValidate(Object o) {
+        if (o == null) {
+            return;
+        }
+        logger.debug("Validating for  " + o.getClass().getCanonicalName());
+        Set<ConstraintViolation<Object>> errors = this.validator.validate(o);
         StringBuilder builder = new StringBuilder();
         for (ConstraintViolation cv : errors) {
             logger.error(cv.getMessage());
@@ -40,6 +48,5 @@ public class ValidatorAspect {
         if (!errors.isEmpty()) {
             throw new IllegalArgumentException(builder.toString());
         }
-
     }
 }
