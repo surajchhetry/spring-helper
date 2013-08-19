@@ -3,7 +3,7 @@ package net.surajchhetry.springhelper.beanvalidation;
 import java.util.ArrayList;
 import java.util.List;
 import javax.validation.Valid;
-import javax.validation.constraints.Min;
+import javax.validation.constraints.AssertTrue;
 import javax.validation.constraints.NotNull;
 
 /**
@@ -58,7 +58,7 @@ public class User {
         this.email = email;
     }
 
-    @Min(value = 16, message = "Under age")
+    //@Min(value = 16, message = "Under age")
     public int getAge() {
         return age;
     }
@@ -84,6 +84,9 @@ public class User {
         this.addresses = addresses;
     }
     
-    
+    @AssertTrue(message =" Age must be above 16" )
+    private boolean isXyzMatch(){
+        return this.age > 16;
+    }
     
 }
