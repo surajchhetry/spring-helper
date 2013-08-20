@@ -31,7 +31,7 @@ public class ValidatorAspect {
         this.processValidate(o);
     }
 
-    private void processValidate(Object o) {
+    public void processValidate(Object o) {
         if (o == null) {
             return;
         }
